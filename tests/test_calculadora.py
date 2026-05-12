@@ -4,7 +4,7 @@ test_calculadora.py — Suite de tests para el módulo calculadora.
 Ejecutar con: pytest tests/ --verbose
 """
 import pytest
-from src.calculadora import sumar, restar, multiplicar, dividir
+from src.calculadora import sumar, restar, multiplicar, dividir, potencia
 
 
 # ── Tests de suma ──────────────────────────────────────────────
@@ -60,3 +60,4 @@ def test_potencia_positiva(self):
 
 def test_potencia_cero(self):
     assert potencia(5, 0) == 1
+
