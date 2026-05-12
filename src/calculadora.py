@@ -11,7 +11,7 @@ def sumar(a, b):
 
 
 def restar(a, b):
-    """Retorna la diferencia entre dos números."""
+    """Retorna la diferencia entre dos números ."""
     return a - b
 
 
