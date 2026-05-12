@@ -11,7 +11,7 @@ def sumar(a, b):
 
 
 def restar(a, b):
-    """Retorna la diferencia entre dos números."""
+    """Retorna la diferencia entre dos números ."""
     return a - b
 
 
@@ -34,3 +34,7 @@ def dividir(a, b):
 
 def potencia(base, exponente):
     return base ** exponente
+
+
+def modulo(a, b):
+    return a % b
